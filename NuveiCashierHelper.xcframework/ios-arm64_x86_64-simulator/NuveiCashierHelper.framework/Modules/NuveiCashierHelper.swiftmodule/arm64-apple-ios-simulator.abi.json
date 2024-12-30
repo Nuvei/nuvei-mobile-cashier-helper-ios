@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NuveiCashierHelper",
+    "printedName": "NuveiCashierHelper",
     "children": [
       {
         "kind": "Import",
@@ -39,13 +39,6 @@
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "NuveiCashierHelper"
-      },
-      {
-        "kind": "Import",
-        "name": "CodeScanner",
-        "printedName": "CodeScanner",
         "declKind": "Import",
         "moduleName": "NuveiCashierHelper"
       },
@@ -278,6 +271,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -542,6 +549,56 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "metadataOutput",
+            "printedName": "metadataOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureMetadataOutput",
+                "printedName": "AVFoundation.AVCaptureMetadataOutput",
+                "usr": "c:objc(cs)AVCaptureMetadataOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AVFoundation.AVMetadataObject]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVMetadataObject",
+                    "printedName": "AVFoundation.AVMetadataObject",
+                    "usr": "c:objc(cs)AVMetadataObject"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@NuveiCashierHelper@objc(cs)CashierHelper(im)captureOutput:didOutputMetadataObjects:fromConnection:",
+            "mangledName": "$s18NuveiCashierHelper0bC0C14metadataOutput_03didE04fromySo017AVCaptureMetadataE0C_SaySo16AVMetadataObjectCGSo0H10ConnectionCtF",
+            "moduleName": "NuveiCashierHelper",
+            "objc_name": "captureOutput:didOutputMetadataObjects:fromConnection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -558,6 +615,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -712,6 +783,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -762,308 +847,315 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CreditCard.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CreditCard.swift",
       "kind": "IntegerLiteral",
       "offset": 5834,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CreditCard.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CreditCard.swift",
       "kind": "StringLiteral",
       "offset": 5865,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CashierHelper.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CashierHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1011,
+      "offset": 992,
       "length": 5,
-      "value": "\"3.3\""
+      "value": "\"3.4\""
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CashierHelper.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CashierHelper.swift",
       "kind": "Array",
-      "offset": 1047,
+      "offset": 1028,
       "length": 164,
       "value": "[\"devmobile.sccdev-qa.com\", \"apmtest.gate2shop.com\", \"ppp-test.safecharge.com\", \"secure.safecharge.com\"]"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CashierHelper.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CashierHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1721,
+      "offset": 1702,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CashierHelper.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CashierHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 2033,
+      "offset": 1976,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2098,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "FloatLiteral",
       "offset": 315,
       "length": 5,
       "value": "5.397"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "FloatLiteral",
       "offset": 323,
       "length": 4,
       "value": "8.56"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 941,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "StringLiteral",
       "offset": 3061,
       "length": 12,
       "value": "\"Found Rect\""
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "StringLiteral",
       "offset": 3113,
       "length": 12,
       "value": "\"Found Text\""
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3271,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "FloatLiteral",
       "offset": 23293,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 23346,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 23417,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 23503,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 23590,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 23667,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 23750,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 24036,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 24121,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 24136,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 24222,
       "length": 3,
       "value": "-10"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 24238,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 24323,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 24436,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "FloatLiteral",
       "offset": 24657,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 24832,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 24919,
       "length": 3,
       "value": "-10"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 24935,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 25011,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 25026,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 25139,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 25199,
       "length": 3,
       "value": "160"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 25215,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "FloatLiteral",
       "offset": 25466,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 25622,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 25733,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 25818,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 25833,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 25932,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 25947,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 26029,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/michaelkessler\/Projects\/Nuvei\/NuveiCashierHelper\/NuveiCashierHelper-iOS-Source\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "filePath": "\/Users\/andrejavorskij\/Projects\/Hut\/nuveicashierscanner-ios\/NuveiCashierHelper\/CardReaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 26044,
       "length": 4,

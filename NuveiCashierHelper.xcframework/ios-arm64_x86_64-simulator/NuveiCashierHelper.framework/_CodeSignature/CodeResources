@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/NuveiCashierHelper-Swift.h</key>
 		<data>
-		Vw1vIO1N0tWo4bSZSFBAQUSRm1k=
+		SkQtQ8RTw49aZpGrVTuwy/8NEb4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pfyNx/rUbi5LIJIfJfwnKCoL/8Q=
+		BKDbpXVYZJftIX+La2naHFUomDQ=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mSA5jMTVAbXMZ2035PdLPq9przo=
+		FspzK4SL2xiPNbQwWAk/77Bq1hg=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qYCJ0L8BZ5BZAmU1k/QPEYHqHoQ=
+		4qC/iDA41qCU4U6j9QWyJEzyvBE=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+Z+6FlKoWlxGMlhsR8ckBg8MGvQ=
+		1ZgaTAg3DovIhh6zvRvw69OBvn8=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qYCJ0L8BZ5BZAmU1k/QPEYHqHoQ=
+		4qC/iDA41qCU4U6j9QWyJEzyvBE=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aJd16IuG5JDHp+9u6MOsKGs7eKQ=
+		XIQubwQR/jl52AnscGjR0c9uzQk=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mSA5jMTVAbXMZ2035PdLPq9przo=
+		FspzK4SL2xiPNbQwWAk/77Bq1hg=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		q6p1wRdMMcYD7LU8DQCZ2KaE3do=
+		rxH7xHj52dQKD8ErdKVBlVptemg=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NQz4+MbKwXyhmgeFMP1bmf/OELg=
+		VhVIO0bIiN49l0A4N2TFBFrbV1U=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		q6p1wRdMMcYD7LU8DQCZ2KaE3do=
+		rxH7xHj52dQKD8ErdKVBlVptemg=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GPqIQwzUuGSk0WJr8YLsb64vFGU=
+		lEIBdAzNUvqWyEsMqrji6H8IKVc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -126,77 +126,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4JSStY0pOmozdT8PUr2vBvrTk+NgawOaX2fALjkg2vk=
+			fT4LVMNO2If15VHfYnJPiUGNkQWctFcSn+ltLn4Q21o=
 			</data>
 		</dict>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JlZ/jA1ZGG0Niv+kTcDL7n6CGdtLQughzNnQQKz8jzU=
+			WSLhZAfgfhLqLkdqFBUeMvGa/pnLFQpGO8hy28JIrPA=
 			</data>
 		</dict>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K60ls6jrq6RK3U5TN1NiKzkvlwzCc89luNafI6gRmFU=
+			F9S5mrYRQ8FI8nLCmjb1m2SwhhdFCoKiLN3usciDcT0=
 			</data>
 		</dict>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2kyWCwApBri2/F7zUbacigVz43+PhcmItOcWhNdyioE=
+			b/QlgtmWtJ6YG7hh3smQTZpH4wvR9zJx1r0Pg+SnduE=
 			</data>
 		</dict>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K60ls6jrq6RK3U5TN1NiKzkvlwzCc89luNafI6gRmFU=
+			F9S5mrYRQ8FI8nLCmjb1m2SwhhdFCoKiLN3usciDcT0=
 			</data>
 		</dict>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lS2ipRi48l/n7unYMXIMaJXTuzjfiM/Kvuc2QFgXTmM=
+			ePCQByDV3AsYfN4UiVUqZ61HPvXiXct/+ZPJkRrd560=
 			</data>
 		</dict>
 		<key>Modules/NuveiCashierHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JlZ/jA1ZGG0Niv+kTcDL7n6CGdtLQughzNnQQKz8jzU=
+			WSLhZAfgfhLqLkdqFBUeMvGa/pnLFQpGO8hy28JIrPA=
 			</data>
 		</dict>
 		<key>Modules/NuveiCashierHelper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MloKSkCCYKU0tq5Z7shG9z29kmCPt8QaTa4UDm6wnJc=
+			nxh+94X6KsJtDUaOSJnl1LPsEwj4BZxM4OKdbfGY4DI=
 			</data>
 		</dict>
 		<key>Modules/NuveiCashierHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gBbybtUBKMP0lNkGRq10+ZfO9NUtSla5dIl+QUM28Xg=
+			o8bYpAWH4IBLUskRSBKxW80rjzu2FNxcnSJOKa8lwVg=
 			</data>
 		</dict>
 		<key>Modules/NuveiCashierHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MloKSkCCYKU0tq5Z7shG9z29kmCPt8QaTa4UDm6wnJc=
+			nxh+94X6KsJtDUaOSJnl1LPsEwj4BZxM4OKdbfGY4DI=
 			</data>
 		</dict>
 		<key>Modules/NuveiCashierHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8JqOVMmYuJNrne8fcW/Ub97Qfzf21+83AzYKdJbaTlo=
+			v9BGwIcqO2va8oCJZ6A+w7kxsJxCQhIvtUkp/PzdEZc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
