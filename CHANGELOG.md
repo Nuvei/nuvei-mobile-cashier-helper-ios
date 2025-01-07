@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.4 
+
+- `[NEW]` Added support for SPM 
+- `[NEW]` Removed all third party dependencies 
+
 ## v3.3.0
 
 - `[NEW]` Added an optional `locale` argument to `connect` function. It is intended for apps that are not fully localized and prefer to use a pre-defined/hard-coded locale in all the SDK screens (e.g. Credit Card Scanner)
