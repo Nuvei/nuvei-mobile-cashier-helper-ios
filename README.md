@@ -3,7 +3,7 @@ Nuvei Cashier Helper SDK for iOS
 
 SETUP
 ------------
-**Pods integration:**  
+**CocoaPods:**  
 Add the next source(s) in the top of the Podfile:
 ```Podfile
 source 'https://github.com/CocoaPods/Specs.git'
@@ -12,14 +12,22 @@ source 'https://github.com/Nuvei/nuvei-mobile-pods.git'
 
 Add the next pods in under the relevant target(s) in the Podfile:
 ```Podfile
-pod 'NuveiCashierHelper', '~> 3.3'
+pod 'NuveiCashierHelper', '~> 3.4'
 ```
+
+**Swift Package Manager:**
+
+- Select *File* > *Add Package Dependency*
+- In the Search bar, type https://github.com/Nuvei/nuvei-mobile-cashier-helper-ios
+- Select the desired version
+- Click *Add Package*
+- Select the target in which to add the SDK
+- Click *Add Package*
 
 **Carthage integration:**  
 Add the next pods in under the relevant target(s) in the Cartfile:
 ```Cartfile
-github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 3.3
-github "SafeChargeInternational/CodeScanner" ~> 1.8.2
+github "Nuvei/nuvei-mobile-cashier-helper-ios" ~> 3.4
 ```
 
 USAGE
@@ -68,10 +76,6 @@ extension WebViewController: WKNavigationDelegate {
 }
 ```
 
-THIRD PARTY LIBS
-------------
-* [CodeScanner](https://github.com/SafeChargeInternational/CodeScanner)
-
 LICENSE
 ------------
-See: [LICENSE](https://github.com/SafeChargeInternational/NuveiCashierHelper-iOS/blob/master/LICENSE.md)
+See: [LICENSE](https://github.com/Nuvei/nuvei-mobile-cashier-helper-ios/blob/master/LICENSE.md)
